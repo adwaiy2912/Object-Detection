@@ -1,13 +1,10 @@
-import os
 from ultralytics import YOLO
 from PIL import Image
 from .base import BaseModel
 
 class YOLOModelV5(BaseModel):
     def __init__(self):
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        model_path = os.path.join(script_dir, "yolov5su.pt")
-        self.model = YOLO(model_path)
+        self.model = YOLO("yolov5s.pt")
 
     def predict(self, image: Image.Image):
         results = self.model(image)

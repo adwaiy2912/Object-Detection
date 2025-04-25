@@ -27,6 +27,7 @@ React/yarn-error.log*
 *.bak
 *.tmp
 *.log
+*.pt
 
 # === IDE/editor files ===
 .vscode/
