@@ -1,0 +1,41 @@
+# === Python (FastAPI) ===
+__pycache__/
+*.py[cod]
+*.so
+venv/
+env/
+*.egg-info/
+.Python
+pip-log.txt
+*.log
+
+# === React (Node.js) ===
+React/node_modules/
+React/build/
+React/.pnp/
+React/.pnp.js
+React/coverage/
+React/.env*
+React/npm-debug.log*
+React/yarn-debug.log*
+React/yarn-error.log*
+
+# === General ===
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# === IDE/editor files ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Project-specific ===
+FastAPI/others/
+
+# === OS / Misc ===
+Thumbs.db
+desktop.ini

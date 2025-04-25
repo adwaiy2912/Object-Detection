@@ -1,0 +1,42 @@
+.home-container {
+   box-sizing: border-box;
+   background: linear-gradient(to left, #fefefe, #eeeeee);
+   min-height: 75vh;
+   min-width: 100vw;
+   padding: 40px;
+   overflow: hidden;
+   font-family: "Source Sans Pro", sans-serif;
+}
+
+.home-container .container {
+   min-height: 65vh;
+   padding: 40px;
+   background-color: white;
+   border-left: 1px solid white;
+   border-radius: 8px 0 0 8px;
+}
+
+/* Media queries ~ */
+@media screen and (max-width: 1000px) {
+   .home-container .container {
+      max-width: 90vw;
+   }
+}
+@media screen and (max-width: 678px) {
+   .login-container {
+      padding-top: 10%;
+   }
+   .home-container .container {
+      max-width: 80vw;
+   }
+   .home-container form {
+      width: 90%;
+   }
+   .home-container .loginDesign {
+      display: none;
+   }
+   .home-container .container .text {
+      width: 100%;
+      padding: 80px 20px;
+   }
+}
