@@ -100,9 +100,3 @@ npm start
 <img src="React/public/preview-1.png" alt="alt text" style="width: 600px;" />
 
 <img src="React/public/preview-2.png" alt="alt text" style="width: 600px;" />
-
----
-
-## 🙌 Author
-
-Made by 💻 by **Adwaiy Singh**
