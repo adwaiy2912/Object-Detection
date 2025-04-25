@@ -10,6 +10,12 @@ function Header({ selectedModel, setSelectedModel }) {
    return (
       <Navbar collapseOnSelect expand="lg" className="bg-body">
          <Container>
+            <img
+               src="DL_logo.png"
+               alt="Logo"
+               className="d-inline-block align-top me-2 bg-dark rounded-circle"
+               style={{ width: "50px", height: "50px" }}
+            />
             <Navbar.Brand href="/" className="text-dark">
                Object Detection Project
             </Navbar.Brand>
