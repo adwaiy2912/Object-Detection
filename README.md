@@ -59,15 +59,21 @@ Models are stored in the backend and initialized at startup. Default is YOLOv8.
 ### Backend (FastAPI)
 
 ```bash
-cd backend
+cd FastAPI
+
+python3 -m venv venv
+source venv/bin/activate
+
 pip install -r requirements.txt
+
 uvicorn main:app --reload
 ```
 
 ### Frontend (React)
 
 ```bash
-cd frontend
+cd React
+
 npm install
 npm start
 ```
