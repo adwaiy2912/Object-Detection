@@ -4,6 +4,20 @@ A web-based application for performing object detection using various models (YO
 
 ---
 
+## 📚 Table of Contents
+
+- [🚀 Features](#-features)
+- [📁 Folder Structure](#-folder-structure)
+- [🧪 Models Supported](#-models-supported)
+- [🛠️ Setup & Run](#️-setup--run)
+  - [Backend (FastAPI)](#backend-fastapi)
+  - [Frontend (React)](#frontend-react)
+- [🌐 API Endpoint](#-api-endpoint)
+- [🧠 Powered By](#-powered-by)
+- [📸 Preview](#-preview)
+
+---
+
 ## 🚀 Features
 
 -  🔄 Switch between multiple detection models in real time.
