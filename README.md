@@ -101,7 +101,7 @@ npm start
 -  **Params**:
    -  `file`: image file
    -  `model`: model key from table above
--  **Response**: Annotated image as PNG
+-  **Response**: Annotated image as PNG (for download)
 
 ---
 
